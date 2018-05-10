@@ -28,4 +28,33 @@ header{
 }
 section{
     flex:1;
+    overflow: hidden;
+    padding: 0 .2rem;
+}
+.list{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid #ccc;
+
+}
+.list li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .4rem;
+}
+.list li i{
+    width:.5rem;
+    height:.5rem;
+    border:1px solid #ccc;
+    border-radius:50%;
+    text-align: center;
+    line-height: .5rem;
+    font-size: .22rem;
+    margin: .2rem 0;
 }
